@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.item {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
+}
+
+button {
+    max-width: 200px;
+    width: 100%;
+    background-color: rgb(22 163 74);
+    color: white;
+}
