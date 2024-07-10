@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import {defineEmits, onMounted, reactive, Ref, ref, watch} from 'vue';
+import {defineEmits, onMounted, reactive} from 'vue';
 import {FormField} from '@/models/interface/formField';
 import {useItemContact} from "@/store/storeItem";
 import {ItemContact} from "@/models/interface/itemContact";
