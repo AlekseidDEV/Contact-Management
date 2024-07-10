@@ -2,7 +2,7 @@
 
 ### Запуск проекта
 ```
-git clone https://github.com/AlekseidDEV/AlekseidDEV.git
+git clone https://github.com/AlekseidDEV/Contact-Management.git
 
 cd Contact-Management
 
