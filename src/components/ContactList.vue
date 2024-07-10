@@ -1,7 +1,7 @@
 <script setup lang="ts">
-import SearchBar from "@/components/SearchBar.vue";
+import SearchBar from "@/components/ui/SearchBar.vue";
 import {computed, onMounted, ref} from "vue";
-import ContactForm from "@/components/ContactForm.vue";
+import ContactForm from "@/components/ui/ContactForm.vue";
 import {useRouter} from "vue-router";
 import {useItemContact} from "@/store/storeItem";
 

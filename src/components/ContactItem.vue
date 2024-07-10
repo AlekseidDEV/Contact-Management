@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import {useRoute} from "vue-router";
 import {useItemContact} from "@/store/storeItem";
-import ContactForm from "@/components/ContactForm.vue";
+import ContactForm from "@/components/ui/ContactForm.vue";
 import {ref} from "vue";
 
 const store = useItemContact()
