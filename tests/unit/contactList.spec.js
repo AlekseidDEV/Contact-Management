@@ -12,5 +12,13 @@ describe('ContactList.vue', () => {
         const wrapper = shallowMount(ContactList)
         console.log(wrapper.html())
     });
+
+    it('проверка начальных значений', () => {
+        const wrapper = shallowMount(ContactList);
+        expect(wrapper.vm.isShowForm).toBe(false);
+        expect(wrapper.vm.isEdit).toBe(false);
+        expect(wrapper.vm.indexEdit).toBe(0);
+        expect(wrapper.vm.isSearch).toBe(false);
+    });
 })
 
